@@ -1,5 +1,5 @@
 const main = document.getElementById('main')
 
-main.addEventListener('click', function(event) {
+main.addEventListener('click', (event) => {
   alert("I was clicked!")
 })
